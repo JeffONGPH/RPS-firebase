@@ -1,0 +1,47 @@
+.nameForm, .game{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+h1 {
+    text-align:center;
+}
+
+.box{
+    border:solid black 3px;
+   min-width: 200px;
+   min-height:200px;
+}
+
+#chatBox {
+    border:solid black 3px;
+    min-width: 380px;
+    min-height: 250px;
+    margin-top: 18px;
+}
+
+#chatMessage {
+width: 100%;
+}
+
+#messageButton {
+    width: 100%;
+    margin-left: 0.5%;
+    background-color: darkgray;
+} 
+
+#startButton{
+    margin-left: 0.5%
+}
+
+.messageContainer {
+    margin-top:20px;
+}
+
+p {text-align: center;
+opacity: 0.4;
+margin-top: 50px;}
+
