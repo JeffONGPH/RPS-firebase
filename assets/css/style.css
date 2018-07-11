@@ -1,4 +1,5 @@
-.nameForm, .game {
+.nameForm,
+.game {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -6,52 +7,57 @@
     width: 100%;
 }
 
-.buttons, .score{
+.buttons,
+.score {
     display: flex;
     align-content: center;
     justify-content: center;
-
 }
 
-
-h1,h2, h3, h4, .buttons {
-    text-align:center;
+h1,
+h2,
+h3,
+h4,
+.buttons {
+    text-align: center;
 }
 
-.box{
-    border:solid black 3px;
-   min-width: 250px;
-   min-height: 250px;
+.box {
+    border: solid black 3px;
+    min-width: 250px;
+    min-height: 250px;
 }
 
 #chatBox {
-    border:solid black 3px;
+    border: solid black 3px;
     min-width: 380px;
     min-height: 250px;
     margin-top: 18px;
 }
 
 #chatMessage {
-width: 100%;
+    width: 100%;
 }
 
 #messageButton {
     width: 100%;
     margin-left: 0.5%;
     background-color: darkgray;
-} 
+}
 
-#startButton{
+#startButton {
     margin-left: 0.5%
 }
 
 .messageContainer {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
-p {text-align: center;
-opacity: 0.4;
-margin-top: 50px;}
+p {
+    text-align: center;
+    opacity: 0.4;
+    margin-top: 50px;
+}
 
 .but {
     margin: 5px;
