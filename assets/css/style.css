@@ -1,4 +1,4 @@
-.nameForm, .game{
+.nameForm, .game {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -6,14 +6,22 @@
     width: 100%;
 }
 
-h1, h3 {
+.buttons, .score{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+h1,h2, h3, h4, .buttons {
     text-align:center;
 }
 
 .box{
     border:solid black 3px;
-   min-width: 200px;
-   min-height:200px;
+   min-width: 250px;
+   min-height: 250px;
 }
 
 #chatBox {
@@ -45,3 +53,10 @@ p {text-align: center;
 opacity: 0.4;
 margin-top: 50px;}
 
+.but {
+    margin: 5px;
+}
+
+.score {
+    margin-top: 10px;
+}
